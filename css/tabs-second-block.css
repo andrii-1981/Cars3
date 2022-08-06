@@ -1,0 +1,15 @@
+.tabs{
+    
+    display: flex;
+    justify-content: center;
+   
+}
+
+.tabs .tab{
+    margin: 50px;
+    display: block;
+    background-color: white;
+    width: 100;
+
+   
+}
