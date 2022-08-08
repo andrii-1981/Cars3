@@ -11,15 +11,17 @@ img {
 
 
 :root {
-    --bg-color #655757;
+    --bg-color: #ececec;
     --text-btn-yellow: #FFFF00;
     --taxt-btn-blue: #0000FF;
 }
 .container{
     width: 980px;
+    margin: auto;
+    background-color: var(--bg-color);
 }
 
 
 .title{
-
+color: white;
 }
