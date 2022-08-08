@@ -1,4 +1,5 @@
 .tabs {
+    background-color: var(--bg-color);
     box-sizing: border-box;
     height: 500px;
     display: flex;

@@ -11,10 +11,15 @@ img {
 
 
 :root {
-
+    --bg-color #655757;
     --text-btn-yellow: #FFFF00;
     --taxt-btn-blue: #0000FF;
+}
+.container{
+    width: 980px;
+}
 
 
+.title{
 
 }
