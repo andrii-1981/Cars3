@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+:root {
+    --bg-color: #ececec;
+    --text-btn-yellow: #FFFF00;
+    --taxt-btn-blue: #0000FF;
+}
+.container{
+    width: 980px;
+    margin: auto;
+    background-color: var(--bg-color);
+}
+
+.menu_title{
+color: black;
+}
+.title{
+color: var(--text-btn-yellow);
+}
+
+items_text{
+color: silver;
+}

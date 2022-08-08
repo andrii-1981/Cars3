@@ -1,10 +1,16 @@
 .tabs {
+    
+    background-color: var(--bg-color);
     box-sizing: border-box;
-    height: 500px;
+    height: 650px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    
+    
+
 
 }
+
 
 .tab .tabs__button {
     box-sizing: border-box;
@@ -17,18 +23,20 @@
     width: 200px;
     border-radius: 35px;
     border: none;
-
-
-
 }
-
+.tab img{
+    height: 200px;
+}
 .tabs .tab {
     display: block;
     margin: 50px;
     margin: auto;
     background-color: white;
     text-align: center;
-    
+    border: 1px solid black;
+    padding: 1em 2em 2em;
+    margin-left: 15px;
+    margin-right: 15px;
    
 
 
