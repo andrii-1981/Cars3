@@ -1,8 +1,12 @@
-footer{
+.footer__menu{
     display: flex;
     justify-content: space-between;
     background: #222222;
-    
+}
+
+.footer{
+    height: 630px;
+
 }
  .menu__footer li{
     padding: 20px;
