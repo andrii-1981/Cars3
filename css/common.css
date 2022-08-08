@@ -21,7 +21,13 @@ img {
     background-color: var(--bg-color);
 }
 
-
+.menu_title{
+color: black;
+}
 .title{
-color: white;
+color: var(--text-btn-yellow);
+}
+
+items_text{
+color: silver;
 }
