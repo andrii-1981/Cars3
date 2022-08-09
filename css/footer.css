@@ -32,10 +32,11 @@
  }
 
 
- @media (max-width:500px) {
-    img{
+ @media (min-width:425px) {
+   /*  img{
         display: none;
-    }
+    } */
+    
     .container{
         display: flex;
         justify-content: center;

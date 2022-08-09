@@ -2,7 +2,7 @@
     
     background-color: var(--bg-color);
     
-    height: 850px;
+   /*  height: 850px; */
     width: 980px;
     display: flex;
     justify-content: space-between;
@@ -34,6 +34,7 @@
     display: block;
     /* margin: 50px; */
     margin: auto;
+    margin-top: 15px;
     height: 586px; ;
     width: 370px;;
     background-color: white;
@@ -45,19 +46,15 @@
 .tab  h2,h3{
 padding: 20px;
 }
- @media (max-width:500px) {
+ @media (min-width:425px) {
+    .container{
+        width: 425px;
+    }
     .tabs{
         flex-direction: column;
-
-        justify-content: center;
-    }
-    
-}
-@media (min-width:980px) {
-    .tabs{
-        flex-direction: row;
-
+        
         
     }
+   
     
 }
