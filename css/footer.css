@@ -7,7 +7,7 @@
      height: 80px;
      margin: auto;
    
-     background: #222222;
+     
 
  }
 
@@ -15,7 +15,7 @@
      width: 100px;
  }
 
- .menu_links {
+ .menu__links {
      padding: 10px 70px;
      display: flex;
      list-style-type: none;
@@ -23,7 +23,7 @@
      margin: auto;
      border-bottom: 1px solid #ffffff;
  }
- .menu .menu_link{
+ .menu__links .menu_link{
     color: #ffffff;
     padding: 20px;
     text-decoration: none;
