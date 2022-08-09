@@ -17,6 +17,7 @@ img {
     --bg-color: #ececec;
     --text-btn-yellow: #FFFF00;
     --taxt-btn-blue: #0000FF;
+    --items_text-color: rgb(137, 137, 137);
 }
 .container{
     max-width: 980px;
@@ -31,6 +32,8 @@ color: black;
 color: var(--text-btn-yellow);
 }
 
-items_text{
-color: silver;
+.items_text {
+    font-size: 20px;
+    font-family: Ubuntu;
+    color: var(--items_text-color);
 }
