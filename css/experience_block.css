@@ -2,3 +2,23 @@
     font-size: 40px;
     font-family: Barlow Condensed;
 } 
+ .car-year {
+    font-size: 90px;
+    font-family: Barlow Condensed;
+ }
+
+#car-year-2010 {
+    color: rgb(255, 255, 255);
+}
+
+#car-year-2012 {
+    color: rgb(34, 34, 34);
+}
+
+#car-year-2015 {
+    color: rgb(255, 255, 255);
+}
+
+#car-year-2019 {
+    color: rgb(34, 34, 34);
+}
