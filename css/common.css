@@ -15,7 +15,7 @@ img {
 
 :root {
     --bg-color: #ececec;
-    --text-btn-yellow: #FFFF00;
+    --text-btn: rgb(240, 191, 76) ;
     --taxt-btn-blue: #0000FF;
     --items_text-color: rgb(137, 137, 137);
 }

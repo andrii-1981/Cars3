@@ -18,7 +18,7 @@
     display: block;
     margin: auto;
     margin-top: 50px;
-    background-color: yellow;
+    background-color: var(--text-btn);
     font-size: 10px;
     height: 40px;
     width: 200px;
