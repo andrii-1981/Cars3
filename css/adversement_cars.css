@@ -45,3 +45,19 @@
 .tab  h2,h3{
 padding: 20px;
 }
+ @media (max-width:500px) {
+    .tabs{
+        flex-direction: column;
+
+        justify-content: center;
+    }
+    
+}
+@media (min-width:980px) {
+    .tabs{
+        flex-direction: row;
+
+        
+    }
+    
+}
