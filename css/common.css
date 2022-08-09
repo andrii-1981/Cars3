@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background-color: var(--bg-color); */
 }
-
+body{
+    background-color: var(--bg-color);
+}
 img {
     display: block;
     width: 100%;
@@ -16,9 +19,9 @@ img {
     --taxt-btn-blue: #0000FF;
 }
 .container{
-    width: 980px;
+    max-width: 980px;
     margin: auto;
-    background-color: var(--bg-color);
+    
 }
 
 .menu_title{
