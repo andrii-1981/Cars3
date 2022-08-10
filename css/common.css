@@ -18,6 +18,7 @@ img {
     --text-btn: rgb(240, 191, 76) ;
     --taxt-btn-blue: #0000FF;
     --items_text-color: rgb(137, 137, 137);
+    scroll-behavior: smooth;
 }
 .container{
     max-width: 980px;
@@ -27,11 +28,13 @@ img {
 
 .menu_title{
     text-align: center;
+    color: var(--text-btn);
 color: black;
 }
 .title{
     text-align: center;
-color: var(--text-btn);
+
+color: black;
 }
 
 .items_text {

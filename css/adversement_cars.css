@@ -52,6 +52,7 @@ padding: 20px;
     }
     .tabs{
         flex-direction: column;
+        margin: auto;
         
         
     }
