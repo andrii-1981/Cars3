@@ -28,6 +28,7 @@ img {
 
 .menu_title{
     text-align: center;
+<<<<<<< HEAD
     color: var(--text-btn);
 color: black;
 }
@@ -35,6 +36,15 @@ color: black;
     text-align: center;
 
 color: black;
+=======
+    color: black;
+}
+.title{
+    text-align: center;
+    font-size: 14px;
+    font-family: Ubuntu;
+    color: var(--text-btn);
+>>>>>>> 3d29f1b94a0c031f14027d81deef5f7136b9fa8d
 }
 
 .items_text {
