@@ -1,7 +1,38 @@
+.experience-section__content {
+    
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.section__content-cards {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    max-width: 1320px;
+    background-color: white;
+    text-align: center;
+    border: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 .experience-section__heading {
+    text-align: center;
     font-size: 40px;
     font-family: Barlow Condensed;
 } 
+
+.dark_cards {
+    background-color: rgb(2, 2, 4);
+}
+
+.light_cards {
+    background-color: rgb(255, 255, 255);
+}
  .car-year {
     font-size: 90px;
     font-family: Barlow Condensed;

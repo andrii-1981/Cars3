@@ -27,11 +27,13 @@ img {
 
 .menu_title{
     text-align: center;
-color: black;
+    color: black;
 }
 .title{
     text-align: center;
-color: var(--text-btn);
+    font-size: 14px;
+    font-family: Ubuntu;
+    color: var(--text-btn);
 }
 
 .items_text {
