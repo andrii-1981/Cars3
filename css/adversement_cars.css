@@ -1,17 +1,10 @@
 .tabs {
-    
     background-color: var(--bg-color);
-    
-   /*  height: 850px; */
     width: 980px;
     display: flex;
     justify-content: space-between;
-    
-    
-
 
 }
-
 
 .tab .tabs__button {
     box-sizing: border-box;
@@ -25,37 +18,35 @@
     border-radius: 35px;
     border: none;
 }
-.tab img{
+.tab img {
+    margin: auto;
     height: 200px;
     width: 309px;
+    margin-top: 35px;
     padding: 6px;
 }
 .tabs .tab {
     display: block;
-    /* margin: 50px; */
     margin: auto;
     margin-top: 15px;
-    height: 586px; ;
-    width: 370px;;
+    height: 586px;
+    width: 370px;
     background-color: white;
     text-align: center;
     border: none;
     margin-left: 15px;
     margin-right: 15px;
 }
-.tab  h2,h3{
-padding: 20px;
+.tab h2,
+h3 {
+    padding: 20px;
 }
- @media (min-width:425px) {
-    .container{
+
+@media (min-width:425px) {
+    .container {
         width: 425px;
     }
-    .tabs{
+    .tabs {
         flex-direction: column;
-        margin: auto;
-        
-        
     }
-   
-    
 }
