@@ -13,10 +13,7 @@
 
  }
 
- img {
-     width: 100px;
- }
-
+ 
  .menu__links {
      padding: 10px 70px;
      display: flex;
@@ -33,7 +30,7 @@
  }
 
  @media (min-width:425px) {
-
+    
      .footer__img {
          display: none;
      }
