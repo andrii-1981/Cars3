@@ -5,8 +5,15 @@
     justify-content: space-between;
     flex-direction: column;
     align-items: flex-start;
+    max-width: 1200px;
+    margin: 0px auto;
 }
-
+@media (min-width: 600px) {
+    .experience-section__content {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
 
 .section__content-cards {
     display: block;
@@ -16,8 +23,6 @@
     background-color: white;
     text-align: center;
     border: none;
-    margin-left: 15px;
-    margin-right: 15px;
 }
 
 .experience-section__heading {
