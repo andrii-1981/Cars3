@@ -1,11 +1,12 @@
  footer {
      background: #222222;
+
  }
 
  .footer__menu {
      display: flex;
      width: 900px;
-     height: 80px;
+     min-height: 80px;
      margin: auto;
 
 
@@ -33,15 +34,17 @@
 
 
  @media (min-width:425px) {
-   /*  img{
-        display: none;
-    } */
-    
-    .container{
-        display: flex;
-        justify-content: center;
-        margin: auto;
-    }
+
+     .footer__img {
+         display: none;
+     }
+
+     .container {
+         display: flex;
+         justify-content: center;
+         margin: auto;
+     }
+
      .menu__links {
          display: flex;
          justify-content: center;
