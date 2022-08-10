@@ -1,4 +1,12 @@
-.staff_photo{
+.staff_photo img{
     display: block;
     width: 433px;
+    margin: auto;
+}
+
+.staff_header{
+    font-family: 'Barlow Condensed', sans-serif;
+    color:rgb(255, 255, 255);
+    text-align: center;
+
 }
