@@ -96,3 +96,15 @@
     padding-top: 25px;
     padding-bottom: 25px;
 }
+@media (min-width: 984px) {
+    .bigcar-container{
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 100px;
+    }
+    .bigcar-image img{
+        height: 100vh;
+    }
+    .bigcar-container{
+        gap: 0;
+    }
+}
