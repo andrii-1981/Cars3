@@ -1,7 +1,8 @@
 .offices__banner {
     background-image: url(../img/offices-sections/background-offices.jpg);
     min-height: 400px;
-    padding: 90;
+    padding-top:90px;
+    padding-bottom: 90px;
 }
 
 
