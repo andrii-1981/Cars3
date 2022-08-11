@@ -1,12 +1,16 @@
+.items_text {
+    padding: 0px 24px;
+    display: block;
+}
+
 .experience-section__content {
-    
     background-color: var(--bg-color);
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: flex-start;
-    max-width: 1200px;
     margin: 0px auto;
+    padding: 0px 24px;
 }
 @media (min-width: 600px) {
     .experience-section__content {
@@ -22,7 +26,7 @@
     max-width: 1320px;
     background-color: white;
     text-align: center;
-    border: none;
+   
 }
 
 .experience-section__heading {
@@ -33,10 +37,14 @@
 
 .dark_cards {
     background-color: rgb(2, 2, 4);
+    border-radius: 10px;
+    padding: 24px;
 }
 
 .light_cards {
     background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 24px;
 }
  .car-year {
     font-size: 90px;
@@ -57,4 +65,24 @@
 
 #car-year-2019 {
     color: rgb(34, 34, 34);
+}
+
+.car-year-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+ 
+}
+
+.car__img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.inner_text {
+    text-align: center;
+    font-size: 17px;
+    font-family: Ubuntu;
+    color: var(--items_text-color);
 }
