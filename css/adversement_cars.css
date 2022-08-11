@@ -44,6 +44,35 @@
 h3 {
     padding: 20px;
 }
+
+
+@media (min-width:320px) {
+    .container {
+        width: 320px;
+        
+    }
+
+    .tabs {
+        flex-direction: column;
+       justify-content: space-between;
+       
+    }
+    .tabs .tab {
+        display: block;
+        margin: auto;
+        margin-top: 15px;
+        height: 586px;
+        width: 320px;
+        
+        background-color: white;
+        text-align: center;
+        border: none;
+        margin-left: 0;
+        margin-right: 0;
+        margin: auto;
+    }
+    
+}
 @media (min-width:425px) {
     .container {
         width: 425px;
@@ -53,6 +82,7 @@ h3 {
         flex-direction: column;
     }
 }
+
 @media (min-width:991px) {
     .container {
         width: 991px;
