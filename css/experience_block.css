@@ -1,3 +1,7 @@
+:root{
+    --experience__dark-cards__color: rgb(2, 2, 4);
+    --experience__light-cards__color: rgb(252, 252, 252);
+}
 @media (min-width: 768px) {
     .experience-section {
         padding-top: 50px;
