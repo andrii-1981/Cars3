@@ -1,3 +1,16 @@
 .offices__banner {
+    background-image: url(../img/offices-sections/background-offices.jpg);
+    min-height: 400px;
+    padding: 90;
+}
+
+
+
+.offices__text {
+    text-align: center;
+    color: var(--main-color);
+    font-family: 'Barlow Condensed', sans-serif;
     
 }
+
+
