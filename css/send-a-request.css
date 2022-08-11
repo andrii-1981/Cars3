@@ -1,0 +1,44 @@
+.send__request {
+    display: block;
+    width: 40%;
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+  
+  }
+  
+  
+  .request__form input {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: inherit;
+    color: rgba(0, 0, 0, 0.58);
+    width: 80%;
+    border: none;
+    /* background: transparent; */
+    border-bottom: 1px solid var(--bg-color);
+    padding: 10px 0 10px;
+    outline-color:#1088e4;
+  }
+  
+  
+  .request_btn {
+  display: block;
+  width: 80%;
+  height: 40px;
+  background-color: #1088e4;
+  border: 0;
+  border-radius: 25px;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: auto;
+  margin-top: 40px;
+  }
+  
+  .request_btn:hover {
+    background-color: var(--text-btn);
+  }
