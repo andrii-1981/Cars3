@@ -1,42 +1,58 @@
 .footer__map {
+
     min-height: 630px;
     display: flex;
-    position: relative;
+    /*  position: relative; */
 }
 
 
 .footer__map .footer__info {
     display: flex;
-   position: absolute;
-   flex-direction: column;
-   left: 0;
-   width: 50%;
-   height: 630px;
-   background-color: white;
-   justify-content: center;
-   
+    /* position: absolute; */
+    flex-direction: column;
+    left: 0;
+    width: 50%;
+    height: 630px;
+    background-color: white;
+    justify-content: center;
+
 
 }
-.items_text h4{
+
+.items_text h4 {
     color: var(--text-btn);
 }
-.items_text a{
+
+.items_text a {
     display: block;
-  margin-top: 20px;   
-    
+    margin-top: 20px;
+
 }
+
 .footer__map .footer__social {
     display: flex;
     padding: 140px;
     justify-content: space-between;
 }
+
 @media (min-width:425px) {
     .container {
         width: 425px;
     }
-    .footer__map iframe {
-        display: none;
+
+    .footer__map {
+        flex-direction: column;
     }
+
+    .footer__map iframe {
+        display: flex;
+        width: 50%;
+        height: 630px;
+        margin: auto;
+
+        justify-content: space-between;
+    }
+
     .footer__map .footer__info {
         display: flex;
         padding-top: 40px;
@@ -45,16 +61,51 @@
         right: 0;
         justify-content: space-between;
     }
+
     .footer__map .footer__social {
         display: flex;
         flex-direction: column;
-        padding-top: 40px;  
+        padding-top: 40px;
         max-height: 300px;
         align-items: center;
     }
-     .footer__social  img{
-        
+
+    .footer__social img {
+
         height: 50px;
-        
+
     }
+
+}
+
+@media (min-width:991px) {
+
+    .footer__map {
+
+        min-height: 630px;
+        display: flex;
+        flex-direction: row;
+        /*  position: relative; */
+    }
+
+    .footer__map .footer__info {
+        display: flex;
+        
+        padding-top: 40px;
+        margin: auto;
+        left: 0;
+        
+        justify-content: space-between;
+    }
+
+    .footer__map iframe {
+        right: 0;
+        display: flex;
+        width: 500px;
+        height: 630px;
+        margin: auto;
+
+        justify-content: space-between;
+    }
+
 }
