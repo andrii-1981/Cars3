@@ -47,10 +47,7 @@ h3 {
 
 
 @media (min-width:320px) {
-    .container {
-        width: 320px;
-        
-    }
+  
 
     .tabs {
         flex-direction: column;
@@ -74,9 +71,7 @@ h3 {
     
 }
 @media (min-width:425px) {
-    .container {
-        width: 425px;
-    }
+    
 
     .tabs {
         flex-direction: column;
@@ -84,9 +79,7 @@ h3 {
 }
 
 @media (min-width:991px) {
-    .container {
-        width: 991px;
-    }
+   
     .tabs {
         background-color: var(--bg-color);
         max-width: 980px;
