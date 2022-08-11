@@ -1,0 +1,50 @@
+/* .section {
+  background-color: #000} */
+
+
+/* .menu__title {
+  text-align: center;
+  font-size: 40px;
+  color: var(--main-color);
+  font-family: Barlow Condensed;
+}  */
+
+/* .cars__cards {
+  display: flex;
+  margin: auto;
+  margin-top: 15px;
+  max-width: 1320px; */
+  /* background-color: var(--black-color);
+  text-align: center;
+  align-items:center;
+  justify-content: center;
+  border: none;
+} */
+
+
+.cars__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin: auto;
+  margin-top: 15px;
+  max-width: 1320px;
+  /* background-color: var(--black-color); */
+  text-align: center;
+  align-items:center;
+  justify-content: center;
+  border: none;
+}
+
+.cars__cards h3 {
+  color: var(--main-color);
+}
+
+.cars__cards p {
+  color: var(--items_text-color);
+}
+
+
+.bmw__card  img{
+  border-radius: 10px;
+}
