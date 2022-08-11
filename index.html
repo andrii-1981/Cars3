@@ -305,12 +305,14 @@
                 <p class="menu_title">Need to Rent a Luxury Car?</p>
                 <p class="items_text">Complete the form below and we'll contact you as soon as possible!</p>
             </article>
-            <form class="request__form" action="/" method="post">
-                <input type="text" name="client-name" required placeholder="Enter your full name*">
-                <input type="tel" name="client-phone" placeholder="Enter your phone number*">
-                <input type="email" name="client-email" placeholder="Enter your e-mail*">
-                <textarea cols="30" rows="2" placeholder="Type your message"></textarea>
-                <input type="submit" value="REQUEST A QUOTE">
+            <form action="/" method="post">
+                <div class="request__form">
+                    <input type="text" name="client-name" required placeholder="Enter your full name*">
+                    <input type="tel" name="client-phone" placeholder="Enter your phone number*">
+                    <input type="email" name="client-email" placeholder="Enter your e-mail*">
+                    <input type="email" name="client-text" placeholder="Type your message">
+                </div>
+                <input class="request_btn" type="submit" value="REQUEST A QUOTE">
             </form>
         </div>
         <!-- Oleksii's block -->
