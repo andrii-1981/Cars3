@@ -44,7 +44,6 @@
 h3 {
     padding: 20px;
 }
-
 @media (min-width:425px) {
     .container {
         width: 425px;
@@ -53,4 +52,57 @@ h3 {
     .tabs {
         flex-direction: column;
     }
+}
+@media (min-width:991px) {
+    .container {
+        width: 991px;
+    }
+    .tabs {
+        background-color: var(--bg-color);
+        max-width: 980px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    
+    .tab .tabs__button {
+        box-sizing: border-box;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        background-color: var(--text-btn);
+        font-size: 10px;
+        height: 40px;
+        width: 200px;
+        border-radius: 35px;
+        border: none;
+    }
+    
+    .tab img {
+        margin: auto;
+        height: 200px;
+        width: 309px;
+        margin-top: 35px;
+        padding: 6px;
+    }
+    
+    .tabs .tab {
+        display: block;
+        margin: auto;
+        margin-top: 15px;
+        height: 586px;
+        width: 370px;
+        background-color: white;
+        text-align: center;
+        border: none;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .tab h2,
+    h3 {
+        padding: 20px;
+    }
+    
 }
