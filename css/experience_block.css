@@ -6,18 +6,12 @@
 .experience-section__content {
     background-color: var(--bg-color);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     align-items: flex-start;
     margin: 0px auto;
     padding: 0px 24px;
 }
-@media (min-width: 600px) {
-    .experience-section__content {
-      display: flex;
-      justify-content: space-between;
-    }
-  }
 
 .section__content-cards {
     display: block;
@@ -39,6 +33,7 @@
     background-color: rgb(2, 2, 4);
     border-radius: 10px;
     padding: 24px;
+    flex-direction: column;
 }
 
 .light_cards {
