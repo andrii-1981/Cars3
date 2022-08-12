@@ -1,16 +1,11 @@
-.wrapper {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 24px;
-}
-
 .header {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content:space-between;
     padding: 40px 0;
+    flex:1;
+    /* margin: 0 24px; */
  
 }
 
@@ -31,16 +26,23 @@
 
 .menu {
     display: flex;
+    align-items: center;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:flex-end;
 }
 
 .menu__item {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content:flex-end;
+    margin-right: 35px;
     
+    
+}
+
+.menu__item a{
+    text-decoration: none;
 }
 
 .menu__link {
@@ -48,15 +50,42 @@
     color: var(--text-color);
     font-size: 17px;
     font-weight: 500;
+      
+} 
+
+.header__social {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+   
     
-    
-    
-}  
+}
 
 li {
     list-style-type:none;
-    
-    
+     
+}
+
+
+
+.header__social__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 100%;
+    background-color: rgb(246, 196, 61);
+}
+
+.header__social__item i {
+    color: white;
+}
+
+.header__social a {
+    text-decoration: none;
 }
 
 @media (min-width:320px) {
@@ -64,18 +93,39 @@ li {
         padding: 30px 0; 
         
     }
+    .main__logo {
+        max-height: 223px;
+        max-width: 540px;
+    }  
     
 }
 
 @media (min-width:991px) {
-    
-    .menu__item {
-        padding: 30px;
-    }
+    .main__logo {
+        height: 32px;
+        width: 77px;
+    }    
 
+    .header__social{
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width:1036px) {
     .nav__menu {
-        margin: 15px;
+        flex-direction: row;
     }
 
+    .main__logo {
+        height: 40px;
+        width: 95px;
+    }  
+
+    .header__social {
+        margin: 0;
+    }
     
+    
+      
 }
