@@ -67,3 +67,12 @@
 .top-manufacturers__section__heading {
     font-family: 'Barlow Condensed', sans-serif;
 }
+
+.top-manufacturers__carousel-card {
+    width: 100px;
+    height: 100px;
+}
+
+.top-manufacturers__carousel-img {
+    background-size: cover;
+}
