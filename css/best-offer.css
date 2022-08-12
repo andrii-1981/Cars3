@@ -13,11 +13,12 @@
 } 
 
 
-h3 {
-  text-align: center;
+ h3 {
+  left: 0;
   font-size: 30px;
   color: var(--main-color);
   font-family: Barlow Condensed;
+
 } 
 
 .offer_text {
@@ -33,27 +34,12 @@ h3 {
   margin: auto;
   margin-top: 15px;
   margin-bottom: 100px;
-  max-width: 1320px;
+  width: 1200px;
   text-align: center;
   align-items:center;
-  justify-content: center;
+  justify-content: space-between;
   border: none;
 }
-
-
-/* .cars__cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-  margin: auto;
-  margin-top: 15px;
-  max-width: 1320px;
-  /* background-color: var(--black-color); */
-  text-align: center;
-  align-items:center;
-  justify-content: center;
-  border: none;
-} */
 
 
 
@@ -68,12 +54,29 @@ h3 {
 }
 
 
-.cars__cards  img{
+.cars__cards img{
   border-radius: 10px;
+  width: 100%;
+  /* width: 370px; */
+  height: 400px;
+  margin: auto;
 }
 
-.bmw__card,
-.ford__card {
-  padding-right: 25px;
-  height: 100%;
+.cars__cards .bmw__card, .ford__card, .lexus__card {
+  width: 370px;
+}
+
+
+@media (min-width: 425px) {
+  .cars__cards {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cars__cards {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
