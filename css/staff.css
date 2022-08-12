@@ -1,12 +1,43 @@
+
+.staff_section{
+    background: url(../img/staff-people/background-staff.jpg);
+
+}
+
+
+
+.staff-section-conreiner{
+    padding: 0 24px;
+}
+
+
+
+
 .staff_photo img{
     display: block;
     width: 433px;
     margin: auto;
 }
 
+.staff_title{
+    text-align: center;
+    font-size: 40px;
+    color: var(--main-color);
+    font-family: Barlow Condensed;
+
+} 
+
 .staff_header{
     font-family: 'Barlow Condensed', sans-serif;
     color:rgb(255, 255, 255);
     text-align: center;
 
+}
+.CEO-staff{
+    text-align: center;
+}
+
+.social-links{
+    width:auto;
+    height:auto;
 }
