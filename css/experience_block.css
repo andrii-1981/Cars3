@@ -1,6 +1,10 @@
 :root{
-    --experience__dark-cards__color: rgb(2, 2, 4);
-    --experience__light-cards__color: rgb(252, 252, 252);
+    --experience__cards-2010__color: rgb(2, 2, 4);
+    --experience__cards-2012__color: rgb(252, 252, 252);
+    --experience__cards-2015__color: rgb(5, 7, 28);
+    --experience__cards-2019__color:rgb(221, 226, 233);
+    --short-line__yellow-color: #f6c43d;
+    --short-line__blue-color: #1088e4;
 }
 @media (min-width: 768px) {
     .experience-section {
@@ -79,7 +83,6 @@
 }
 
 .dark_cards {
-    background-color: var(--experience__dark-cards__color);
     border-radius: 10px;
     margin-top: 50px;
     padding-top: 39px !important;
@@ -96,7 +99,6 @@
 
 .light_cards {
     margin-top: 50px;
-    background-color: var(--experience__light-cards__color);
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
     padding-top: 39px !important;
@@ -112,20 +114,36 @@
     }
 }
 
+#experience__cards-2010 {
+    background-color: var(--experience__cards-2010__color);
+}
+
+#experience__cards-2012 {
+    background-color: var(--experience__cards-2012__color);
+}
+
+#experience__cards-2015 {
+    background-color: var(--experience__cards-2015__color);
+}
+
+#experience__cards-2019 {
+    background-color: var(--experience__cards-2019__color);
+}
+
 .car_img {
     position: relative;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: 100% 50%;
+    object-position: 70% 50%;
     overflow: hidden;
 }
 
 .car_img_container {
    display: block;
    position: relative;
-   max-width: 100%;
-
+   width: 100%;
+   height: auto;
 }
 
 .experience-section__text-content {
@@ -148,4 +166,22 @@
     font-size: 17px;
     font-family: 'Ubuntu', sans-serif;
     color: var(--items_text-color);
+}
+
+.yellow__short-line {
+    width: 11%;
+    height: 3px;
+    background-color: var(--short-line__yellow-color);
+    position: relative;
+    display: block;
+    margin: 15px 0;
+}
+
+.blue__short-line {
+    width: 11%;
+    height: 3px;
+    background-color: var(--short-line__blue-color);
+    position: relative;
+    display: block;
+    margin: 15px 0;
 }
