@@ -8,7 +8,7 @@
 }
 
 .items_text {
-    color: black;
+    color: var(--black-color);
     font-family: 'Ubuntu',sans-serif;
     font-size: 18px;
     
