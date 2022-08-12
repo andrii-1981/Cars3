@@ -4,14 +4,66 @@
 
 .top-manufacturers__section {
     background-color: var(--top-manufacturers-background-color);
+    padding: 90px 0px 80px;
 }
 
 @media (min-width: 991px) {
-    ..top-manufacturers__section {
+    .top-manufacturers__section {
+        display: flex;
+    }
+}
+
+.top-manufacturers__section-content {
+    padding: 0px 24px;
+}
+
+.top-manufacturers__section-header{
+    display: block;
+    padding: 0px 15px;  
+}
+
+.carousel-inner {
+    display: flex;
+    justify-content: stretch;
+}
+
+.heading_text {
+    display: block;
+    text-align: left;
+}
+
+.top-manufacturers__section__heading {
+    color: var(--main-color);
+}
+
+.title {
+    text-align: left;
+}
+
+@media (max-width: 767px){
+    .top-manufacturers__section__heading {
+        font-size: 40px;
+    } 
+}
+
+@media (min-width: 767px){
+    .top-manufacturers__section__heading {
+        font-size: 52px;
+    } 
+}
+
+@media (min-width: 991px){
+    .top-manufacturers__section__heading {
+        font-size: 65px;
+    } 
+}
+
+@media (min-width: 768px) {
+    .top-manufacturers__section-content {
         display: flex;
     }
 }
 
 .top-manufacturers__section__heading {
-    color: var(--main-color);
+    font-family: 'Barlow Condensed', sans-serif;
 }
