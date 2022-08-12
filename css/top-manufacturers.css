@@ -1,0 +1,17 @@
+:root{
+    --top-manufacturers-background-color:#222222;
+}
+
+.top-manufacturers__section {
+    background-color: var(--top-manufacturers-background-color);
+}
+
+@media (min-width: 991px) {
+    ..top-manufacturers__section {
+        display: flex;
+    }
+}
+
+.top-manufacturers__section__heading {
+    color: var(--main-color);
+}
