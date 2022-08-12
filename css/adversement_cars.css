@@ -1,18 +1,17 @@
-
-@media (min-width:1140px){
+@media (min-width:1140px) {
     .tabs {
         background-color: var(--bg-color);
         width: 980px;
         display: flex;
         justify-content: space-between;
-    
+
     }
-    
+
     .tab .tabs__button {
         box-sizing: border-box;
         display: block;
         margin: auto;
-    
+
         margin-top: 30px;
         background-color: var(--text-btn);
         font-size: 10px;
@@ -21,16 +20,16 @@
         border-radius: 35px;
         border: none;
     }
-    
-    
-     .tab  img {
+
+
+    .tab img {
         margin: auto;
         height: 200px;
         width: 309px;
         margin-top: 25px;
         padding: 6px;
-    } 
-    
+    }
+
     .tabs .tab {
         display: block;
         margin: auto;
@@ -43,27 +42,34 @@
         margin-left: 15px;
         margin-right: 15px;
     }
-    .tabs__subtitle h3{
+
+    .tabs__subtitle h3 {
         font-size: 10px;
     }
+
     .tab h2,
     h3 {
         padding: 10px;
     }
+    .tab h3 {
+        padding: 5px;
+        color: var(--items_text-color);
+    }
+
+
 }
+
 .tabs {
     background-color: var(--bg-color);
     width: 980px;
     display: flex;
     justify-content: space-between;
-
 }
 
 .tab .tabs__button {
     box-sizing: border-box;
     display: block;
     margin: auto;
-
     margin-top: 30px;
     background-color: var(--text-btn);
     font-size: 10px;
@@ -74,13 +80,13 @@
 }
 
 
- .tab  img {
+.tab img {
     margin: auto;
     height: 200px;
     width: 309px;
     margin-top: 25px;
     padding: 6px;
-} 
+}
 
 .tabs .tab {
     display: block;
@@ -94,32 +100,33 @@
     margin-left: 15px;
     margin-right: 15px;
 }
-.tabs__subtitle h3{
-    font-size: 10px;
-}
+
 .tab h2,
 h3 {
     padding: 10px;
+
 }
 
 
+
 @media (min-width:320px) {
-  
+
 
     .tabs {
         max-width: 320ox;
         flex-direction: column;
-       justify-content: space-between;
-       margin: auto;
-       
+        justify-content: space-between;
+        margin: auto;
+
     }
+
     .tabs .tab {
         display: block;
         margin: auto;
         margin-top: 15px;
         height: 586px;
         width: 320px;
-        
+
         background-color: white;
         text-align: center;
         border: none;
@@ -127,26 +134,38 @@ h3 {
         margin-right: 0;
         margin: auto;
     }
-    
+    .tab h3 {
+        padding: 5px;
+        color: var(--items_text-color);
+    }
+
 }
+
 @media (min-width:425px) {
-    
+
 
     .tabs {
         min-width: 425px;
         flex-direction: column;
     }
+
+    .tab h3 {
+        padding: 5px;
+        color: var(--items_text-color);
+    }
 }
+
 @media (min-width:768px) {
-    
+
 
     .tabs {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
 
-      
+
     }
+
     .tabs .tab {
         display: block;
         margin: auto;
@@ -159,22 +178,27 @@ h3 {
         margin-left: 15px;
         margin-right: 15px;
     }
+
+    .tab h3 {
+        padding: 5px;
+        color: var(--items_text-color);
+    }
 }
 
 @media (min-width:1024px) {
-   
+
     .tabs {
-        
+
         background-color: var(--bg-color);
         max-width: 1024px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-       flex-wrap: nowrap; 
-        justify-content: center; 
-    
+        flex-wrap: nowrap;
+        justify-content: center;
+
     }
-    
+
     .tab .tabs__button {
         box-sizing: border-box;
         display: block;
@@ -187,7 +211,7 @@ h3 {
         border-radius: 35px;
         border: none;
     }
-    
+
     .tab img {
         margin: auto;
         height: 200px;
@@ -195,7 +219,7 @@ h3 {
         margin-top: 35px;
         padding: 6px;
     }
-    
+
     .tabs .tab {
         display: block;
         margin: auto;
@@ -208,10 +232,10 @@ h3 {
         margin-left: 15px;
         margin-right: 15px;
     }
-    
-    .tab h2,
-    h3 {
-        padding: 20px;
+
+    .tab h3 {
+        padding: 5px;
+        color: var(--items_text-color);
     }
-    
+
 }
