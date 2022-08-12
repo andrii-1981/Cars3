@@ -21,6 +21,39 @@
     } 
 }
 
+@media (max-width: 767px){
+    .experience-section__heading {
+        font-size: 40px;
+    } 
+}
+
+@media (min-width: 767px){
+    .experience-section__heading {
+        font-size: 52px;
+    } 
+}
+
+@media (min-width: 991px){
+    .experience-section__heading {
+        font-size: 65px;
+    } 
+}
+
+.experience-section__heading {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.empty {
+    width: 25%;
+}
+
+.heading_text {
+    text-align: center;
+    font-size: 20px;
+    font-family: Ubuntu;
+    color: var(--items_text-color);
+}
+
 .experience-section {
     position: relative;
     width: 100%;
@@ -34,12 +67,16 @@
     
 }
 
+.header__wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
 .experience-section__header {
     text-align: center;
     margin: 50px 0px 0px;
     padding: 0px 15px;
 }
-
 
 .dark_cards {
     background-color: var(--experience__dark-cards__color);
