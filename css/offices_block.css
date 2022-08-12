@@ -1,11 +1,9 @@
 .offices__banner {
     background-image: url(../img/offices-sections/background-offices.jpg);
     min-height: 400px;
-    padding-top:90px;
+    padding-top: 90px;
     padding-bottom: 90px;
 }
-
-
 
 .offices__text {
     text-align: center;
@@ -14,14 +12,40 @@
 }
 
 .text__offices {
-    color: rgba(255,255,255, 0.67);
-    text-align:center;
+    color: rgba(255, 255, 255, 0.67);
+    text-align: center;
     font-family: 'Ubuntu', sans-serif;
     ;
 }
 
-.image {
+.offices__image {
     width: 349px;
-    height:238.188px;
+    height: 238.188px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
+.container__image {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 425px) {
+    .container__image {
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .container__image {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+
+}

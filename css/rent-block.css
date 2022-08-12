@@ -1,9 +1,8 @@
 .rent__banner {
     background-image: url(../img/offices-sections/background-rent.png);
     background-size: cover;
-    background-position: 40% 60%;
-    height: 363.953;
-    font-weight: 601;
+    background-position: 30% 70%;
+    min-height: 600px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -15,15 +14,48 @@
     
 }
 
- {
-    @media(min-width: 405px;) {
+ 
+    @media(min-width: 405) {
         .button__container input {
             display:inline;
         }
     }
 
+    
+
+
+    .rent__banner .content__ren {
+        display: block;
+        width: 470px;
+        height: 375px;
+        margin: 20px;
     }
+
+    .button__container {
+        display: flex;
+    } 
+
+    .button__contacts { 
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        background-color: var(--text-btn);
+        font-size: 10px;
+        width: 200px;
+        height: 40px;
+        border-radius: 35px;
+        text-align: center;
+
+    }
+    .button__offer {
     display: block;
-
-
-}
+        margin: auto;
+        margin-top: 30px;
+        background-color: var(--text-btn);
+        font-size: 10px;
+        width: 200px;
+        height: 40px;
+        border-radius: 35px;
+        text-align: center;
+        
+    }
