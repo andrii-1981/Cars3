@@ -40,8 +40,6 @@
     height: 50px;
     cursor: pointer;
     border: none;
-    background: var(--text-btn);
-    color: var(--main-color);
     border-radius: 40px;
     padding-top: 12px;
     margin: auto;
