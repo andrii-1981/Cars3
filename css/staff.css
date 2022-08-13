@@ -4,10 +4,26 @@
 
 }
 
+.staff_section{
+    padding-top: 90px;
+    margin: 0 auto;
+}
+
 
 
 .staff-section-conreiner{
-    padding: 0 24px;
+    padding: 0 18px;
+}
+
+.staff_text{
+    text-align: center;
+    font-size: 20px;
+    font-family: Ubuntu;
+    color:rgba(255,255,255,0.67);;
+}
+
+.CEO-staff{
+    color: #898989;
 }
 
 
@@ -28,16 +44,19 @@
 } 
 
 .staff_header{
+    line-height:3;
     font-family: 'Barlow Condensed', sans-serif;
     color:rgb(255, 255, 255);
     text-align: center;
+    font-size: 28px;
 
 }
 .CEO-staff{
     text-align: center;
+
 }
 
 .social-links{
-    width:auto;
-    height:auto;
+    display: flex;
+    column-gap: 20px;
 }
