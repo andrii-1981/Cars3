@@ -19,17 +19,20 @@
     text-align: center;
     font-size: 20px;
     font-family: Ubuntu;
-    color:rgba(255,255,255,0.67);;
+    color:rgba(255,255,255,0.67);
+    margin-bottom: 40px;
 }
 
 .CEO-staff{
     color: #898989;
+    margin-bottom: 40px;
+    margin-top: -23px;
 }
 
 
 
 
-.staff_photo img{
+.staff_photo{
     display: block;
     width: 433px;
     margin: auto;
@@ -49,6 +52,7 @@
     color:rgb(255, 255, 255);
     text-align: center;
     font-size: 28px;
+    
 
 }
 .CEO-staff{
@@ -57,6 +61,11 @@
 }
 
 .social-links{
+    width: 30px;
+    height: 30px;
     display: flex;
-    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    margin-bottom: 40px;
 }
