@@ -55,9 +55,26 @@
 
  }
 
- /* @media (max-width:980px) {
-    .tabs{
-        flex-direction: row;
+ @media (min-width:980px) {
 
-        
-    } */
+
+.footer__menu {
+    display: flex;
+    width: 900px;
+    min-height: 80px;
+    margin: auto;
+
+}
+.menu__links {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    flex: 1;
+
+
+}
+
+}
