@@ -7,6 +7,10 @@
     padding-bottom: 100px;
 }
 
+.title {
+    letter-spacing: 3px;
+}
+
 .items_text {
     color: var(--black-color);
     font-family: 'Ubuntu', sans-serif;
@@ -32,6 +36,9 @@
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bolder;
+    margin-top: 90px;
+    margin-bottom: 90px;
+
 }
 
 .button__contacts {
@@ -64,6 +71,7 @@
     font-weight: bold;
     margin: auto;
     border: 1px solid #222;
+    color: #666;
 }
 
 .bestt__offer:hover {
