@@ -14,11 +14,13 @@
 
         margin-top: 30px;
         background-color: var(--text-btn);
-        font-size: 10px;
+        
         height: 40px;
         width: 200px;
         border-radius: 35px;
         border: none;
+        font-family: 'Barlow Condensed', sans-serif;
+
     }
 
 
