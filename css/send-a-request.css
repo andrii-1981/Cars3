@@ -8,6 +8,8 @@
   
 }
 
+
+
 .send__request {
     display: block;
     width: 600px;
@@ -17,6 +19,7 @@
     margin-bottom: 100px;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
+    padding-top: 75px;
   }
   
 
