@@ -41,8 +41,10 @@
     cursor: pointer;
     border: none;
     border-radius: 40px;
-    padding-top: 12px;
+    text-align: center;
+    font-weight: bold;
     margin: auto;
+    color: var(--main-color);
 }
 
 .button__contacts:hover {
@@ -51,18 +53,20 @@
 
 }
 
-.button__offer {
+.bestt__offer {
     width: 220px;
     height: 50px;
     cursor: pointer;
     border: none;
     background-color: var(--main-color);
     border-radius: 40px;
-    padding-top: 12px;
+    text-align: center;
+    font-weight: bold;
     margin: auto;
     border: 1px solid #222;
 }
 
-.button__offer:hover {
+.bestt__offer:hover {
     background-color: #222;
+    color: var(--main-color);
 }
