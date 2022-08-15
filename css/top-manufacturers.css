@@ -22,11 +22,6 @@
     padding: 0px 15px;  
 }
 
-.carousel-inner {
-    display: flex;
-    justify-content: stretch;
-}
-
 .heading_text {
     display: block;
     text-align: left;
@@ -71,6 +66,13 @@
 .top-manufacturers__carousel-card {
     width: 100px;
     height: 100px;
+    display: flex;
+}
+
+.top-manufacturers__carousel-container {
+    display: flex;
+    align-items: center;
+    margin: auto;
 }
 
 .top-manufacturers__carousel-img {
