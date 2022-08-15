@@ -9,10 +9,7 @@
     text-align: center;
     color: var(--main-color);
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 52px;
-    
-    
-    
+    font-size: 52px;     
 }
 
 .text__offices {
@@ -25,8 +22,7 @@
 .offices__image {
     width: 570px;
     padding: 10px;
-    
-    
+    cursor: pointer;   
 }
 
 .container__image {
@@ -46,7 +42,6 @@ img {
         margin: auto;
         align-items: center;
     }
-
 }
 
 @media (min-width: 1024px) {
@@ -55,9 +50,6 @@ img {
         justify-content: center;
         flex-direction: row;
     }
-
-
 }
 
 
-}
