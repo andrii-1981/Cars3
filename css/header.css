@@ -1,3 +1,12 @@
+.main__page {
+    background: url(../img/header/bg-tesla-main.png);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    min-height: 100%;
+
+}
+
+
 .header {
     display: flex;
     flex-direction: row;
@@ -87,6 +96,72 @@ li {
 .header__social a {
     text-decoration: none;
 }
+
+.car__rental__main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    
+}
+
+.descr {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 17px;
+}
+
+.descr p {
+    font-weight: bold;
+    margin-left: 7px;
+    margin-bottom: 0px;
+    
+}
+
+.descr div {
+    color: var(--text-blue-color);
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+
+.devider   {
+    width: 20px;
+    height: 2px;
+    background: var(--text-blue-color);
+}
+
+.main__text {
+    margin-top: 20px;
+    font-size: 200px;
+    word-wrap: break-word;
+    color: var(--text-btn);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    
+}
+
+.buttons    {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.learn__more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:165.117px;
+    height: 16.5;
+    background: var(--brand-color-yellow);
+    border-radius: 25px;
+    font-size: 16.5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700
+    
+}
+
 
 @media (min-width:320px) {
     .header {
