@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,700&family=Ubuntu&display=swap');
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -32,13 +30,6 @@ img {
     font-family: 'Barlow Condensed', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Ubuntu', sans-serif;
-
-    
-    
-
-
-    
-
 }
 
 .container {
