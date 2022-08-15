@@ -1,3 +1,9 @@
-.carousel-item img{
+/* .carousel-item .d-block>img {
     width: 120px;
-}
+} */
+img.d-block{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    object-fit: cover;
+    border-radius: 100px;}

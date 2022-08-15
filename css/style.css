@@ -1,6 +1,6 @@
+@import url(common.css);
 @import url(header.css);
 @import url(burger-icon.css);
-@import url(common.css);
 @import url(experience_block.css);
 @import url(best-offer.css);
 @import url(send-a-request.css);
@@ -13,6 +13,4 @@
 @import url(offices_block.css);
 @import url(rent-block.css);
 @import url(top-manufacturers.css);
-
-
-
+@import url(feedback.css);

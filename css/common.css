@@ -48,8 +48,8 @@ img {
 
 .menu_title {
     text-align: center;
-    color: var(--black-color);
-    
+    text-align: center;
+    color: var(--black-color); 
 
 }
 
