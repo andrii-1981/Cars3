@@ -23,8 +23,7 @@
 }
 
 .offices__image {
-    width: 349px;
-    height: 238.188px;
+    width: 570px;
     padding: 10px;
     
     
@@ -33,6 +32,7 @@
 .container__image {
     display: flex;
     justify-content: center;
+    margin-top: 60px;
 }
 
 img {
