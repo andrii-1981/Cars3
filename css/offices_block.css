@@ -20,7 +20,7 @@
 }
 
 .offices__image {
-    width: 570px;
+    width: 450px;
     padding: 10px;
     cursor: pointer; 
 }
@@ -33,15 +33,22 @@
 
 img {
     border-radius: 7px;
-
-}
+} 
 @media (min-width: 425px) {
     .container__image {
         flex-direction: column;
         justify-content: center;
         margin: auto;
         align-items: center;
+        max-width: 425px;
     }
+
+    /* .offices__image img {
+        width: 425px;
+        padding: 10px;
+        cursor: pointer; 
+
+    } */
 }
 
 @media (min-width: 1024px) {
@@ -52,9 +59,9 @@ img {
     }
 } 
 
-#carousel-offices {
+/* #carousel-offices {
     margin: auto;
     width: 500px;
-}
+} */
 
 
