@@ -122,10 +122,10 @@ h3 {
 
 @media (min-width:320px) {
     .tabs {
-        max-width: 320ox;
+        width:100% ;
         flex-direction: column;
-        justify-content: space-between;
-        margin: auto;
+        
+      
 
     }
 
