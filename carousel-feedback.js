@@ -29,4 +29,6 @@
         renderCarousel();
     }
     setInterval(nextSlide,3000);
+
+    
 })();
