@@ -41,7 +41,7 @@
     function renderCarousel() {
         const slideContainer = document.querySelector('.feedback__carousel__slides');
         slideContainer.innerHTML = slides[currentSlideIdx];
-       /*  if (window.innerWidth > 600) {
+     /*    if (window.innerWidth > 600) {
             const secondSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
             slideContainer.innerHTML += slides[secondSlideIdx];
             if (window.innerWidth > 900) {
