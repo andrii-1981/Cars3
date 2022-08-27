@@ -8,7 +8,7 @@
         <p class="items_text">Every day, dozens of people go to work or travel by cars rented with FASTCAR.</p>
                     <img src="img/feedback/daniel.png" alt=" daniel">
                     <div class="menu_title">Jane McCallan</div>
-                    <div class="items_text">I am completely satisfied with the services of this company. I often
+                    <div class="faq-description">I am completely satisfied with the services of this company. I often
                         rent cars with FASTCAR for business meetings, driving to work, etc. I am pleased with the
                         excellent technical condition of the cars, favorable rental conditions. And the staff is
                         always friendly.</div>
@@ -19,7 +19,7 @@
         <p class="items_text">Every day, dozens of people go to work or travel by cars rented with FASTCAR.</p>
                     <img src="img/feedback/elizabeth.png" alt="elzabet">
                     <div class="menu_title">Daniel Gordons</div>
-                    <div class="items_text">I am completely satisfied with the services of this company. I often
+                    <div class="faq-description">I am completely satisfied with the services of this company. I often
                         rent cars with FASTCAR for business meetings, driving to work, etc. I am pleased with the
                         excellent technical condition of the cars, favorable rental conditions. And the staff is
                         always friendly.</div>
@@ -30,7 +30,7 @@
         <p class="items_text">Every day, dozens of people go to work or travel by cars rented with FASTCAR.</p>
                     <img src="img/feedback/jane.png" alt=" jane">
                     <div class="menu_title">Elizabeth Smith</div>
-                    <div class="items_text">I am completely satisfied with the services of this company. I often rent
+                    <div class="faq-description">I am completely satisfied with the services of this company. I often rent
                         cars with FASTCAR for business meetings, driving to work, etc. I am pleased with the excellent
                         technical condition of the cars, favorable rental conditions. And the staff is always friendly.
                     </div>
