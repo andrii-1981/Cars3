@@ -32,7 +32,10 @@
                    <img class="tab__img" src="${product.image}" alt="${products.title}">
                     <h2 class="tabs__title">${product.title}</h2>
                     <h3 class="tabs__subtitle">${product.tabs__subtitle}</h3>
-                    <button class="tabs__button">${product.btn}</button>
+                    <form action="#reguest__section">
+                   <button   class="tabs__button">${product.btn}</button>
+                  </form>
+                   
          </div>`;
 
     }
