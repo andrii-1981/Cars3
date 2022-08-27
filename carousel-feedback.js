@@ -1,13 +1,23 @@
 (function () {
 
     const slides = [
-                `<div class="feedback_slide">
+                `
+                <div class="feedback_slide">
+                <h2 class="title">— FEEDBACK</h2>
+        <p class="menu_title">Testimonials</p>
+        <p class="items_text">Every day, dozens of people go to work or travel by cars rented with FASTCAR.</p>
                     <img src="img/feedback/daniel.png" alt=" daniel">
                 </div>`,
                 `<div class="feedback_slide">
+                <h2 class="title">— FEEDBACK</h2>
+        <p class="menu_title">Testimonials</p>
+        <p class="items_text">Every day, dozens of people go to work or travel by cars rented with FASTCAR.</p>
                     <img src="img/feedback/elizabeth.png" alt="elzabet">
                 </div>`,
                 `<div class="feedback_slide">
+                <h2 class="title">— FEEDBACK</h2>
+        <p class="menu_title">Testimonials</p>
+        <p class="items_text">Every day, dozens of people go to work or travel by cars rented with FASTCAR.</p>
                     <img src="img/feedback/jane.png" alt=" jane">
                 </div>
              `
