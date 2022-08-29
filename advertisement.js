@@ -23,7 +23,7 @@
     }
   ];
 
-  function renderTabs(products) {
+  function renderCards(products) {
     const tabsContainer = document.querySelector('.tabs');
     tabsContainer.innerHTML = '';
     for (const product of products) {
@@ -40,5 +40,5 @@
 
     }
 }
-  renderTabs(products);
+  renderCards(products);
 })();
