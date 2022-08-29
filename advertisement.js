@@ -1,6 +1,5 @@
 (function() {
     const products = [{
-
             id: "1",
             title: "SUVs",
             tabs__subtitle: "No obstacles on your way<br> can spoil the trip",
