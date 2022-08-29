@@ -24,16 +24,16 @@
   ];
 
   function renderCards(products) {
-    const tabsContainer = document.querySelector('.tabs');
+    const tabsContainer = document.querySelector('.cards');
     tabsContainer.innerHTML = '';
     for (const product of products) {
         tabsContainer.innerHTML +=`
-        <div class="tab">
-                   <img class="tab__img" src="${product.image}" alt="${products.title}">
-                    <h2 class="tabs__title">${product.title}</h2>
-                    <h3 class="tabs__subtitle">${product.tabs__subtitle}</h3>
+        <div class="card">
+                   <img class="card__img" src="${product.image}" alt="${products.title}">
+                    <h2 class="cards__title">${product.title}</h2>
+                    <h3 class="cards__subtitle">${product.tabs__subtitle}</h3>
                     <form action="#reguest__section">
-                   <button   class="tabs__button">${product.btn}</button>
+                   <button   class="cards__button">${product.btn}</button>
                   </form>
                    
          </div>`;
