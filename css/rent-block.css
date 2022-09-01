@@ -15,14 +15,14 @@
     color: var(--black-color);
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
+    margin-bottom: 90px;
 }
 
-
-@media(min-width: 405) {
-    .button__container input {
+/*@media(min-width: 405) {
+    .button__container {
         display: inline;
     }
-}
+}*/
 
 .rent__banner .content__rent {
     display: block;
@@ -31,14 +31,18 @@
     margin: 20px;
 }
 
-.button__container {
-    display: flex;
+.button__container a {
+    display: block;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bolder;
-    margin:auto;
-    margin-top: 90px;
-    width: 360px;
+    margin-top: 60px;
+}
+
+@media (min-width: 600px) {
+    .button__container a {
+        display: inline;
+    }
 }
 
 .btn__contacts {
@@ -50,6 +54,7 @@
     padding: 10px 25px;
     font-size: 16.5px;
     letter-spacing: 1px;
+    width: 200px;
 }
 
 .btn__contacts:hover {
@@ -69,6 +74,7 @@
     padding: 10px 25px;
     font-size: 16.5px;
     letter-spacing: 1px;
+    width: 250px;
 }
 
 .btn__offers:hover {
