@@ -33,16 +33,19 @@
 }
 
 .button__container a {
-    display: block;
+    display: flex;
+    justify-content: space-between;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bolder;
+    margin-right: 20px;
     margin-top: 60px;
-    margin: auto;
+    text-align: center;
 }
 
 .button__container {
-    display: block;
+    display: flex;
+    flex-direction: row;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bolder;
@@ -52,7 +55,40 @@
 
 @media (min-width: 600px) {
     .button__container a {
-        display: inline;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bolder;
+        margin-right: 20px;
+        margin-top: 60px;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .button__container {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bolder;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        margin-top: 60px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .button__container {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bolder;
+        margin: auto;
+        margin-top: 60px;
     }
 }
 
