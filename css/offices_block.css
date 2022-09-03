@@ -46,6 +46,8 @@ img {
         align-items: center;
         max-width: 425px;
     }
+}
+
 
     /* .offices__image img {
         width: 425px;
@@ -53,7 +55,7 @@ img {
         cursor: pointer; 
 
     } */
-}
+
 
 @media (min-width: 1024px) {
     .container__image {
