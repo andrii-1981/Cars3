@@ -13,19 +13,28 @@
 }
 
 .text__offices {
-    display: block;
+    display: flex;
     padding-left: 150px;
     padding-right: 150px;
     color: var(--offices-text-color);
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
+    margin-bottom: 90px;
 }
 
 .offices__image {
-    width: 450px;
+    width: 300px;
     padding: 10px;
     cursor: pointer; 
+}
+
+.offices__image:hover {
+    opacity: 0.5;
+}
+
+.offices__image img {
+    border-radius: 7px;
 }
 
 .container__image {
@@ -34,30 +43,21 @@
     margin-top: 60px;
 }
 
-img {
-    border-radius: 7px; 
+.container__image .offices__image {
+    width: 500px;
+    display: block;
 
 } 
-@media (min-width: 425px) {
+@media (min-width: 320px) {
     .container__image {
         flex-direction: column;
         justify-content: center;
         margin: auto;
         align-items: center;
-        max-width: 425px;
     }
 }
 
-
-    /* .offices__image img {
-        width: 425px;
-        padding: 10px;
-        cursor: pointer; 
-
-    } */
-
-
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
     .container__image {
         display: flex;
         justify-content: center;

@@ -5,6 +5,7 @@
     min-height: 610px;
     padding-top: 130px;
     padding-bottom: 135px;
+    display:flex;
 }
 
 .title {
@@ -18,6 +19,12 @@
     margin-bottom: 90px;
 }
 
+/*@media(min-width: 405) {
+    .button__container {
+        display: inline;
+    }
+}*/
+
 .rent__banner .content__rent {
     display: block;
     width: 470px;
@@ -30,7 +37,7 @@
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bolder;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 @media(min-width: 600px) {
@@ -41,8 +48,15 @@
     font-family: 'Ubuntu', sans-serif;
     font-weight: bolder;
     margin: auto;
+    margin-top: 40px;
 }
 }
+
+/*@media (min-width: 600px) {
+    .button__container a {
+        display: inline;
+    }
+}*/
 
 .btn__contacts {
     background-color: var(--text-btn);
