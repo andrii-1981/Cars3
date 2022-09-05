@@ -24,7 +24,8 @@
 }
 
 #active-image {
-    width: 100%;
+    min-width: 100%;
+    height: auto;
 }
 
 .modal__offices #close {
@@ -119,55 +120,5 @@
     opacity: 0.5;
 }
 
-
-
-
-
-/*.offices__image {
-    width: 300px;
-    padding: 10px;
-    cursor: pointer; 
-}
-
-.offices__image:hover {
-    opacity: 0.5;
-}
-
-.offices__image img {
-    border-radius: 7px;
-}
-
-.container__image {
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-}
-
-.container__image .offices__image {
-    width: 500px;
-    display: block;
-
-} 
-@media (min-width: 320px) {
-    .container__image {
-        flex-direction: column;
-        justify-content: center;
-        margin: auto;
-        align-items: center;
-    }
-}
-
-@media (min-width: 1024px) {
-    .container__image {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-    }
-} 
-*/
-/* #carousel-offices {
-    margin: auto;
-    width: 500px;
-} */
 
 
