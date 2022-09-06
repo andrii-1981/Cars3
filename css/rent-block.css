@@ -19,12 +19,6 @@
     margin-bottom: 90px;
 }
 
-/*@media(min-width: 405) {
-    .button__container {
-        display: inline;
-    }
-}*/
-
 .rent__banner .content__rent {
     display: block;
     width: 470px;
@@ -51,12 +45,6 @@
     margin-top: 40px;
 }
 }
-
-/*@media (min-width: 600px) {
-    .button__container a {
-        display: inline;
-    }
-}*/
 
 .btn__contacts {
     background-color: var(--text-btn);
