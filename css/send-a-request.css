@@ -2,9 +2,7 @@
 .reguest__section {
   display: block;
   background-image: url(../img/send-a-request-images/background-car.svg);
-  /* padding: 1px 0; */
   background-size: cover;
-  background-position: center;
   background-position: 45%;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -18,7 +16,7 @@
     padding-bottom: 75px;
     width: 40%;
     margin-left: 100px;
-    margin-right: 100px;
+    /* margin-right: 100px; */
     padding-left: 15px;
     padding-right: 15px;
     word-wrap: break-word;
@@ -68,4 +66,15 @@
     font-family: Ubuntu;
     color: var(--items_text-color);
     margin-bottom: 50px;
+  }
+
+
+  
+
+  @media (max-width: 768px) {
+    .request__container {
+      width: 80%;
+      text-align: center;
+      margin: auto;
+    }
   }

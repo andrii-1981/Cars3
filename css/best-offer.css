@@ -1,13 +1,12 @@
 .best__offer {
   background-color: var(--bs-body-color);
   padding: 100px 40px;
-  
+    
 }
 
 .offer__content {
   max-width: 100%;
   margin: auto;
-  width: 100%;
   min-width: 320px;
   max-width: 1200px;
 }
@@ -36,7 +35,8 @@
 
 .car__cards {
   margin-top: 60px;
-  width: 100%;
+  min-width: 320px;
+  max-width: 1200px;
   display: flex;
   justify-content: space-around;
   border: none;
@@ -45,15 +45,12 @@
 .car__cards img {
   object-fit: cover;
   object-position: 30%;
-  width: 100%;
-  width: 370px;
+  max-width: 370px;
   height: 400px;
   padding-left: 15px;
   padding-right: 15px;
   border-radius: 20px;
   }
-
-
 
 
 
@@ -75,6 +72,7 @@
 
 @media (min-width: 320px) {
   .car__cards {
+    display: flex;
     flex-direction: column;
     justify-content: center;
   }
@@ -82,6 +80,7 @@
 
 @media (min-width: 768px) {
   .car__cards {
+    display: flex;
     flex-direction: row;
     justify-content: center;
   }
